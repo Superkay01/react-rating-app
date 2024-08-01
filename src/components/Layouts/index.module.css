@@ -1,0 +1,9 @@
+.wrapper{
+    background: linear-gradient(var(--DarkBlue) 15%, var(--VeryDarkBlue));
+
+    width: 90%;
+    margin-inline: auto;
+    max-width: 400px;
+    border-radius: 1rem;
+    padding: 2rem;
+}

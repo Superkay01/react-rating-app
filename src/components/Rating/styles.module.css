@@ -1,0 +1,72 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.starWrapper {
+  background: var(--DarkBlue);
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+}
+.ratingBtn {
+  height: 2.75rem;
+  width: 2.75rem;
+  background: var(--DarkBlue);
+  color: var(--LightGrey);
+  border: none;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.ratingBtn:hover {
+  background: var(--Orange);
+  color: var(--white);
+}
+
+.ratingBox {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+.ratingBtnActive {
+  background-color: var(--LightGrey);
+  color: var(--white);
+}
+/* .ratingBtn {
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--DarkBlue);
+  color: var(--LightGrey);
+  border: none;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  cursor: pointer;
+  
+} */
+
+.submitBtn {
+  border-radius: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  background: var(--Orange);
+  color: var(--white);
+  cursor: pointer;
+  padding: 0.75rem 2rem;
+  transition: color 0.5s, background 0.5s;
+}
+.submitBtn:hover {
+  color: var(--Orange);
+  background: var(--white);
+}

@@ -1,0 +1,25 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+--Orange: hsl(25, 97%, 53%);
+--Orange-2: hsla(25, 97%, 95%, .3);
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+body, #root{
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: black;
+  color: var(--LightGrey);
+  display: grid;
+  place-items: center;
+}
